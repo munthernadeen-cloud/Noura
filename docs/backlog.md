@@ -1,140 +1,64 @@
 # Noura Product Backlog
 
-## Status Values
-- To Do
-- In Progress
-- Testing
-- Done
+This document provides a high-level overview of the main work planned for Noura.
 
-## Priority Values
-- High
-- Medium
-- Low
+Detailed implementation tasks, acceptance criteria, priorities, and progress will be tracked using GitHub Issues.
 
----
+## 1. Authentication
+- Sign Up
+- Login
+- Logout
+- Forgot Password
+- Protected Routes
+- User Session Management
 
-## Authentication
+## 2. Quran Tracker
+- Display 30-day Quran plan
+- Mark Juz as completed
+- Undo completion
+- Save progress
+- Calculate completed and remaining Juz
+- Calculate completion percentage
 
-### T-01 — Create Sign Up Page
-**Priority:** High  
-**Status:** To Do
+## 3. Duas & Adhkar
+- Create custom categories
+- Rename categories
+- Delete categories
+- Add Dua or Dhikr
+- Edit entries
+- Delete entries
+- Search saved entries
 
-### T-02 — Create Login Page
-**Priority:** High  
-**Status:** To Do
+## 4. Dashboard
+- Show Quran progress summary
+- Show completed and remaining Juz
+- Show progress percentage
+- Add one progress chart
 
-### T-03 — Connect Authentication to Supabase
-**Priority:** High  
-**Status:** To Do
+## 5. User Data & Security
+- Store user-specific data
+- Load saved data after login
+- Prevent users from accessing other users' data
+- Apply database security rules
 
-### T-04 — Implement Logout
-**Priority:** High  
-**Status:** To Do
+## 6. User Experience
+- Responsive design
+- Loading states
+- Error messages
+- Empty states
+- Basic accessibility
 
-### T-05 — Implement Forgot Password
-**Priority:** High  
-**Status:** To Do
+## 7. Quality & Release
+- Manual testing
+- Code cleanup and refactoring
+- Project documentation
+- GitHub README
+- Deployment
 
-### T-06 — Protect Private Routes
-**Priority:** High  
-**Status:** To Do
-
----
-
-## Quran Tracker
-
-### T-07 — Build Quran Tracker UI
-**Priority:** High  
-**Status:** To Do
-
-### T-08 — Mark Juz as Complete
-**Priority:** High  
-**Status:** To Do
-
-### T-09 — Undo Juz Completion
-**Priority:** High  
-**Status:** To Do
-
-### T-10 — Save Quran Progress
-**Priority:** High  
-**Status:** To Do
-
----
-
-## Duas & Adhkar
-
-### T-11 — Create Custom Category
-**Priority:** High  
-**Status:** To Do
-
-### T-12 — Rename Category
-**Priority:** Medium  
-**Status:** To Do
-
-### T-13 — Delete Category
-**Priority:** Medium  
-**Status:** To Do
-
-### T-14 — Add Dua or Dhikr
-**Priority:** High  
-**Status:** To Do
-
-### T-15 — Edit Entry
-**Priority:** Medium  
-**Status:** To Do
-
-### T-16 — Delete Entry
-**Priority:** Medium  
-**Status:** To Do
-
-### T-17 — Search Entries
-**Priority:** Medium  
-**Status:** To Do
-
----
-
-## Dashboard
-
-### T-18 — Build Dashboard Summary
-**Priority:** High  
-**Status:** To Do
-
-### T-19 — Calculate Quran Progress Metrics
-**Priority:** High  
-**Status:** To Do
-
-### T-20 — Add Progress Chart
-**Priority:** Medium  
-**Status:** To Do
-
----
-
-## Quality
-
-### T-21 — Add Responsive Design
-**Priority:** High  
-**Status:** To Do
-
-### T-22 — Add Loading States
-**Priority:** Medium  
-**Status:** To Do
-
-### T-23 — Add Error States
-**Priority:** Medium  
-**Status:** To Do
-
-### T-24 — Add Empty States
-**Priority:** Medium  
-**Status:** To Do
-
-### T-25 — Accessibility Improvements
-**Priority:** Medium  
-**Status:** To Do
-
----
-
-## Deployment
-
-### T-26 — Deploy Noura
-**Priority:** High  
-**Status:** To Do
+## Future Features
+- AI Progress Assistant
+- Prayer Times
+- Ramadan Mode
+- Multiple Khatmah Plans
+- Notifications
+- Mobile Application
